@@ -9,3 +9,11 @@ version = "0.1.0"
 
 [dependencies]
 python = "3.10.*"
+
+[pypi-dependencies]
+pandas = ">=2.2.3, <3"
+numpy = ">=2.2.3, <3"
+seaborn = ">=0.13.2, <0.14"
+matplotlib = ">=3.10.1, <4"
+scikit-learn = ">=1.6.1, <2"
+torch = ">=2.6.0, <3"
