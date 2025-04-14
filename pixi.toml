@@ -1,4 +1,4 @@
-[project]
+[workspace]
 authors = ["pyramidheadshark <pyramidheadshark@gmail.com>"]
 channels = ["conda-forge"]
 name = "internship-practice"
@@ -8,16 +8,11 @@ version = "0.1.0"
 [tasks]
 
 [dependencies]
-python = "3.10.*"
+python = "3.11.*"
 
 [pypi-dependencies]
-pandas = ">=2.2.3, <3"
 numpy = ">=2.2.4, <3"
-seaborn = ">=0.13.2, <0.14"
-matplotlib = ">=3.10.1, <4"
-scikit-learn = ">=1.6.1, <2"
-torch = ">=2.6.0, <3"
-jupyter = ">=1.1.1, <2"
+pandas = ">=2.2.3, <3"
+networkx = ">=3.4.2, <4"
 ipykernel = ">=6.29.5, <7"
-plotly = ">=6.0.1, <7"
-openpyxl = ">=3.1.5, <4"
+jupyter = ">=1.1.1, <2"
